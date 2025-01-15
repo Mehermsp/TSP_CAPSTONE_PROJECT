@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 
 # Load the dataset
-data = pd.read_csv('D:\\TSP4.0-AI-SDP-LAB-Repo-main\\shopping_trends_updated.csv')
+data = pd.read_csv('shopping_trends_updated.csv')
 
 # Preprocessing
 data = data[['Category', 'Size', 'Payment Method', 'Location', 'Purchase Amount (USD)']]
