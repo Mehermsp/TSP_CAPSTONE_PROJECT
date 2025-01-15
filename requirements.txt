@@ -1,0 +1,5 @@
+#download the below modules throuogh pip install command
+numpy
+pandas
+scikit-learn
+streamlit
